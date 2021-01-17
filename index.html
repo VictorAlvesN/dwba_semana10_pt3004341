@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>HOME - IFSP - PIRITUBA - DWBA4</title>
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+
+
+
+  <header id="cabecalho">
+    <nav>
+      <ul id="menu">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="eventos.html">EVENTOS</a></li>
+        <li><a href="contato.html">CONTATO</a></li>
+        <li id="abremenu" onmouseover="abrirmenu()" onmouseout="fecharmenu()"><a href="#">CURSOS</a>
+          <div id="submenu" onmouseover="abrirmenu()" onmouseout="fecharmenu()">
+            <p>
+              <a href="ads.html">Análise e Desenvolvimento de Sistemas</a>
+            </p>
+            <p>
+              <a href="engenharia.html">Engenharia de Produção</a>
+            </p>
+
+          </div>
+        </li>
+        <li><a href="entrar.html">ENTRAR</a></li>
+        <li id="link-sobre"><a href="sobre.html">SOBRE</a></li>
+      </ul>
+
+
+    </nav>
+
+    <img src="img/Logo.jpg" alt="logo">
+  </header>
+
+  <!--SLIDERSHOW-->
+
+  <div class="slideshow">
+
+    <div class="slide fade">
+      <div class="ntxt">1 / 4</div>
+      <img src="img/A.png" style="width:100%">
+      <div class="text">Caption Text</div>
+    </div>
+
+    <div class="slide fade">
+      <div class="ntxt">2 / 4</div>
+      <img src="img/B.jpg" style="width:100%">
+      <div class="text">Caption Two</div>
+    </div>
+
+    <div class="slide fade">
+      <div class="ntxt">3 / 4</div>
+      <img src="img/C.jpg" style="width:100%">
+      <div class="text">Caption Three</div>
+    </div>
+
+    <div class="slide fade">
+      <div class="ntxt">4 / 4</div>
+      <h1>Conheça os desafios de inovação</h1>
+      <div>
+        <p align="center">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/5g5LQe3m8Po" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </p>
+      </div>
+    </div>
+
+
+
+
+    <a class="ant" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="prox" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+  </div>
+
+  <!--GRID-CONTAINER-->
+
+  <section id="pai-container">
+
+    <div id="eventos" class="grid-container">
+      <div class="grid-item">
+        <img src="img/eleicoes.jpg" alt="">
+        <p><strong>Radar IFSP: informe-se sobre as eleições do dia 13 de outubro</strong></p>
+        <p>Todos os alunos e servidores podem votar; acesse aqui a cabine de votação online do seu câmpus</p>
+
+      </div>
+
+      <div class="grid-item">
+        <img src="img/snct.jpg" alt="">
+        <p><strong>IFSP: SNCT reúne atividades entre 19 e 24 de outubro</strong></p>
+        <p>Programação reunirá iniciativas para aproximar pesquisadores e atividades culturais</p>
+
+      </div>
+
+      <div class="grid-item">
+        <img src="img/residencia.png" alt="">
+        <p><strong>IFSP oferece bolsa aos voluntários da Residência Pedagógica</strong></p>
+        <p>Bolsa de R$ 400,00 será paga pelo período de três meses</p>
+
+      </div>
+
+      <div class="grid-item">
+        <img src="img/maratona.jpeg" alt="">
+        <p><strong>Inscrições abertas para a III Maratona InterIF</strong></p>
+        <p>Maratona de programação do IFSP será realizada online, no dia 31 de outubro; inscrições até 26 de outubro
+        </p>
+
+      </div>
+    </div>
+
+  </section>
+
+
+  <footer style="margin-top: 25px">
+    <a href="https://www.facebook.com/ifsppirituba"> <img src="img/facebook.png" alt="" width="40px"></a>
+
+    <p>IFSP - Câmpus Pirituba - Av. Mutinga, 951 - Jardim Santo Elias - CEP: 05110-000 - São Paulo/SP - Contato: (011)
+      2504-0100</p>
+
+  </footer>
+
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>

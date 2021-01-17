@@ -1,0 +1,267 @@
+/*SUB-MENU*/
+
+
+#submenu{
+    display: none;
+    position:absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    
+}
+
+#submenu p:hover{
+    background-color: #d8d6d6;
+}
+
+#submenu p{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0px;
+}
+
+#submenu p a{
+    
+    color: black;
+}
+
+/*Slider Show*/
+
+*{
+    box-sizing:border-box;
+}
+
+
+
+.slideshow {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.slide {
+  display: none;
+}
+
+.ant, .prox {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.prox {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.ant:hover, .prox:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.ntxt {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+
+
+
+/*+ DE UMA PÁGINA*/
+.txt-grande{
+    width: 100%;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid lightgray;  
+}
+
+.fs-radio{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.p-radio{
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 8px;
+}
+
+.btn{
+    width: 100%;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    background-color: #4caf50;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid #4caf50;
+}
+
+.btn:hover{
+    background-color: #449b47;
+    cursor: pointer;
+}
+
+.grid-container{
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 120px;
+    margin-top: 50px;
+}
+
+.grid-item{
+    font-size: 12px;
+}
+
+.grid-item img{
+   
+   width: 50%;
+}
+
+/*HEADER*/
+
+nav{
+    background-color: #333333;
+    height: 50px;
+    
+}
+
+#menu{
+    padding-top: 15px;
+    list-style: none;
+    padding-left: 0px;
+}
+
+#menu li{
+    display: inline;
+    padding: 15px 16px;
+    
+}
+
+#menu a{
+    text-decoration: none;
+    color: white;
+}
+
+#menu li:hover{
+    background-color: red;
+}
+
+#link-sobre{
+    float: right;
+    margin-top: -15px;
+}
+
+/*#submenu{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}*/
+
+header{
+    background-color: green;
+}
+
+
+/*HOME - EVENTOS*/
+
+#pai-container{
+    text-align: center;
+}
+
+#eventos{
+    text-align: center;
+}
+
+#img-seja_raro{
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+#eventos figcaption{
+    border: 1px dotted blue;
+}
+
+/*HOME - INOVAÇÃO*/
+
+#inovacao{
+    margin-top: 20px;
+    text-align: center;
+}
+
+/*CONTATO*/
+
+#form-ctt li{
+    margin-bottom: 15px;
+}
+
+
+#ctt-btn-enviar{
+    margin-top: 25px;
+}
+
+/*ENTRAR*/
+
+.fs-entrar{
+    background-color: rgb(245, 239, 239);
+    border: 1px solid rgb(245, 239, 239);
+    border-radius: 5px;
+    margin-bottom: 25px;
+}

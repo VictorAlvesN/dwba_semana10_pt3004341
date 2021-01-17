@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CONTATO - IFSP - PIRITUBA - DWBA4</title>
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header id="cabecalho">
+    <nav>
+      <ul id="menu">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="eventos.html">EVENTOS</a></li>
+        <li><a href="contato.html">CONTATO</a></li>
+        <li id="abremenu" onmouseover="abrirmenu()" onmouseout="fecharmenu()"><a href="#">CURSOS</a>
+          <div id="submenu" onmouseover="abrirmenu()" onmouseout="fecharmenu()">
+            <p>
+              <a href="ads.html">Análise e Desenvolvimento de Sistemas</a>
+            </p>
+            <p>
+              <a href="engenharia.html">Engenharia de Produção</a>
+            </p>
+
+          </div>
+        </li>
+        <li><a href="entrar.html">ENTRAR</a></li>
+        <li id="link-sobre"><a href="sobre.html">SOBRE</a></li>
+      </ul>
+
+
+    </nav>
+
+    <img src="img/Logo.jpg" alt="logo">
+  </header>
+  <section>
+    <h1>Mande uma Mensagem</h1>
+
+    <form action="" method="post" id="form-ctt">
+      <ul>
+        <li>
+          <label for="inserir-nome">Nome</label><br>
+          <input type="text" name="nome" id="nome" class="txt-grande">
+        </li>
+        <li>
+          <label for="inserir-email">E-mail</label><br>
+          <input type="email" name="email" id="email" class="txt-grande">
+        </li>
+        <li>
+          <label for="inserir-tel">Telefone (99) 99999-9999</label><br>
+          <input type="tel" name="tel" id="tel" class="txt-grande">
+        </li>
+        <li>
+          <label for="inserir-assunto">Assunto</label><br>
+          <select name="" id="" class="txt-grande">
+            <option>--Seleção--</option>
+            <option>Reclamação</option>
+            <option>Sugestão</option>
+          </select>
+        </li>
+        <li>
+          <label for="escrever-mensagem">Mensagem</label><br>
+          <textArea class="txt-grande"></textArea>
+        </li>
+        <li>
+          <fieldset class="fs-radio">
+            <legend>Opções de Resposta</legend>
+            <p class="p-radio">
+              <label for="marcar-email">E-mail</label>
+              <input type="checkbox" name="check-email" id="check-email">
+              <label for="marcar-tel">Telefone</label>
+              <input type="checkbox" name="check-tel" id="check-tel">
+            </p>
+          </fieldset>
+        </li>
+        <li>
+          <button type="submit" class="btn" id="ctt-btn-enviar">Enviar</button>
+        </li>
+      </ul>
+    </form>
+  </section>
+
+
+  <footer style="margin-top: 25px">
+    <a href="https://www.facebook.com/ifsppirituba"> <img src="img/facebook.png" alt="" width="40px"></a>
+
+    <p>IFSP - Câmpus Pirituba - Av. Mutinga, 951 - Jardim Santo Elias - CEP: 05110-000 - São Paulo/SP - Contato: (011)
+      2504-0100</p>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ENTRAR - IFSP - PIRITUBA - DWBA4</title>
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link id="avast_os_ext_custom_font"
+    href="chrome-extension://eofcbnmajmjmplflapaojjnihcjkigck/common/ui/fonts/fonts.css" rel="stylesheet"
+    type="text/css">
+  <link href="css/singin.css" rel="stylesheet">
+</head>
+
+
+<body>
+
+  <header id="cabecalho">
+    <nav>
+      <ul id="menu">
+        <header id="cabecalho">
+          <nav>
+            <ul id="menu">
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="eventos.html">EVENTOS</a></li>
+              <li><a href="contato.html">CONTATO</a></li>
+              <li id="abremenu" onmouseover="abrirmenu()" onmouseout="fecharmenu()"><a href="#">CURSOS</a>
+                <div id="submenu" onmouseover="abrirmenu()" onmouseout="fecharmenu()">
+                  <p>
+                    <a href="ads.html">Análise e Desenvolvimento de Sistemas</a>
+                  </p>
+                  <p>
+                    <a href="engenharia.html">Engenharia de Produção</a>
+                  </p>
+                </div>
+              </li>
+              <li><a href="entrar.html">ENTRAR</a></li>
+              <li id="link-sobre"><a href="sobre.html">SOBRE</a></li>
+            </ul>
+
+
+          </nav>
+
+          <img src="img/Logo.jpg" alt="logo">
+        </header>
+        <section class="text-center">
+
+          <form class="form-signin">
+            <img class="mb-4" src="img/ifsp.png" alt="" width="72" height="72">
+            <h1 class="h3 mb-3 font-weight-normal">Faça login</h1>
+            <label for="inputEmail" class="sr-only">Endereço de email</label>
+            <input type="email" id="inputEmail" class="form-control" placeholder="Seu email" required autofocus>
+            <label for="inputPassword" class="sr-only">Senha</label>
+            <input type="password" id="inputPassword" class="form-control" placeholder="Senha" required>
+            <div class="checkbox mb-3">
+              <label>
+                <input type="checkbox" value="remember-me"> Lembrar de mim
+              </label>
+            </div>
+            <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>
+            <p class="mt-5 mb-3 text-muted">&copy; 2017-2018</p>
+          </form>
+        </section>
+        <footer style="margin-top: 25px">
+          <a href="https://www.facebook.com/ifsppirituba"> <img src="img/facebook.png" alt="" width="40px"></a>
+
+          <p>IFSP - Câmpus Pirituba - Av. Mutinga, 951 - Jardim Santo Elias - CEP: 05110-000 - São Paulo/SP -
+            Contato: (011)
+            2504-0100</p>
+        </footer>
+        <script src="js/script.js"></script>
+</body>
+
+</html>
